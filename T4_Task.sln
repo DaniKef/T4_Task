@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariantA", "VariantA\VariantA.csproj", "{443E2618-3C62-4856-8A12-116C87EE89BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariantB", "VariantB\VariantB.csproj", "{387E7A98-8801-45F6-AC70-FE95B25920AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariantC", "VariantC\VariantC.csproj", "{2F0688DC-FAEE-4728-A5D4-8BF926ED77CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{443E2618-3C62-4856-8A12-116C87EE89BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443E2618-3C62-4856-8A12-116C87EE89BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443E2618-3C62-4856-8A12-116C87EE89BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443E2618-3C62-4856-8A12-116C87EE89BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387E7A98-8801-45F6-AC70-FE95B25920AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387E7A98-8801-45F6-AC70-FE95B25920AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387E7A98-8801-45F6-AC70-FE95B25920AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387E7A98-8801-45F6-AC70-FE95B25920AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0688DC-FAEE-4728-A5D4-8BF926ED77CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0688DC-FAEE-4728-A5D4-8BF926ED77CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0688DC-FAEE-4728-A5D4-8BF926ED77CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0688DC-FAEE-4728-A5D4-8BF926ED77CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E9F3FF1-1E06-4740-A986-9C6AD081FF8D}
+	EndGlobalSection
+EndGlobal
