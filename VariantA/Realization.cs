@@ -24,6 +24,7 @@ namespace VariantA
             {/////////
                 if (positions.Contains(i))
                 {
+                    Console.ReadLine();
                     stop = i + tempWord.Length; // остановится после начала + длина слова
                     Console.ForegroundColor = ConsoleColor.Red; // буквы в красный
                 }

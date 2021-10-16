@@ -31,12 +31,13 @@ namespace VariantA
             string line = Console.ReadLine(); // написать текст 
             Console.WriteLine("Задайте слово: ");
             string givenWord = Console.ReadLine(); // заданное слово
-            Console.ReadKey();
             Console.WriteLine("Слова выделены:");
             Realization.EmitGivenWord(line, givenWord); // выделяет красным заданное слово в строке
+
             StringBuilder lineWithoutVerbs = Realization.ReturnWithoutVerbs(line); // ищет глаголы в консоли
             Console.WriteLine("\nСтрока без глаголов:");
             Console.WriteLine(lineWithoutVerbs);// выводит полученную строку без глаголов
+
             Console.WriteLine("Ввести слова, чтоб найти общее основание: ");
             string lineSecond = Console.ReadLine(); // написать текст 
             Console.WriteLine("Слова с одинаковым основанием, разбитые на части:");
